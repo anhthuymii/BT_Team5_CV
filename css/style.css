@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+    height: 46px; 
+    background-color: #000;
+}
+
+#nav {
+   
+    margin-bottom: 0px;
+    position: absolute;
+    display: inline-block;
+}
+
+#nav > li{
+    display: inline-block;
+    position: relative;
+}  
+
+#nav li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 46px;
+    display: block;
+}
+
+#nav li:hover a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#header .search-container {
+    float: right;
+}
+#header input[type=text] {
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    border: none;
+  }
+   
+#header .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+    background: #ddd;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+  }
+   
+#header .search-container button:hover {
+    background: #ccc;
+}
+   
+
+#about-me {
+    width: 100%;
+    height: 600px;
+    background: url(../img/white.jpg) center / cover no-repeat;
+    position: relative;
+}
+    
+#about-me .text{
+    position: absolute;
+    bottom: 35%;
+    left: 15%;
+}
+
+#about-me .hello {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#about-me .name {
+    font-family: Georgia, serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+    
+}
+
+#about-me p {
+    font-style: italic;
+    font-size: 15px;
+    color: rgba(123, 107, 123, 0.818);
+}
+
+#about-me .summary {
+    float: left;
+    text-align: justify;
+    transform: translateX(-50%);
+    width: 600px;
+    margin: 650px 50%;
+    margin-bottom: 50px;
+    
+} 
+
+#about-me .summary p {
+    font-style: normal;
+    font-size: 17px;
+    color: #000;
+}
+
+h3 {
+    /* color: rgba(114, 54, 216, 0.818); */
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
